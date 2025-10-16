@@ -120,14 +120,14 @@ function RootLayoutNav() {
               }} 
             />
             <Stack.Screen 
-              name="my-locations" 
+              name="my-location" 
               options={{ 
                 title: "My Locations",
                 headerBackTitle: "Back",
               }} 
             />
             <Stack.Screen 
-              name="settings" 
+              name="setting" 
               options={{ 
                 title: "Settings",
                 headerBackTitle: "Back",
