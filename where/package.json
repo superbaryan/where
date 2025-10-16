@@ -60,6 +60,8 @@
     "@expo/config-plugins": "~10.1.1",
     "@expo/ngrok": "^4.1.0",
     "@types/react": "~19.0.10",
+    "prettier-plugin-tailwindcss": "^0.7.0",
+    "tailwindcss": "^4.1.14",
     "typescript": "~5.8.3"
   },
   "private": true
