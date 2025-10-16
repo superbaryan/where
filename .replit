@@ -37,3 +37,8 @@ externalPort = 80
 [[ports]]
 localPort = 44745
 externalPort = 3000
+
+[deployment]
+deploymentTarget = "autoscale"
+run = ["bunx", "expo", "start", "--web", "--port", "5000", "--no-dev", "--minify"]
+build = ["bun", "run", "--cwd", "where", "tailwindcss", "-o", "where/global.css"]
