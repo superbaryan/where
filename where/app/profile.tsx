@@ -66,11 +66,11 @@ export default function ProfileScreen() {
   };
   
   const handleMyLocations = () => {
-    router.push('/my-locations');
+    router.push('/my-location');
   };
   
   const handleSettings = () => {
-    router.push('/settings');
+    router.push('/setting');
   };
   
   const toggleTheme = () => {
